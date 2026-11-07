@@ -1,0 +1,23 @@
+# Veri çok büyük olduğu için GitHub'a sığmaz. Sadece README dosyasında kalsın.
+data/*
+!data/README.md
+
+# RUST build çıktıları
+target/
+
+engine/target/
+
+# RUST'ın ürettiği sonuç dosyaları
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Editör ve İşletim Sistemi Dosyaları
+.vscode/
+.idea/
+.DS_Store/
+Thumbs.db
